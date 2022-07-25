@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+nav.nav-container {
+  height: 150px;
+  width: 100%;
+  background: #252121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.2rem;
+}
+
+nav.nav-container button {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+nav.nav-container button:hover {
+  color: #834040;
+}
+
+nav.nav-container h1 {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+nav.nav-container a {
+  color: white;
+}
+
+body {
+  background: #352727;
+}
+
+div.login-container {
+  height: 100%;
+  color: white;
+  background: #352727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.login-container h1 {
+  margin: 2.5em 0;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+div.login-container button {
+  font-size: 3.5em;
+  padding: 0.5em 1em;
+  background: #000;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+div.login-container button:hover {
+  color: black;
+  background: white;
+}
+
+div.post-container {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-self: center;
+}
+
+div.post-container div, div.post-container button {
+  margin: 20px 0px;
+  padding: 0px 20px;
+}
+
+div.post-container div.title {
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #ffad8f;
+}
+
+div.post-container div.input-title, div.post-container div.input-content {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+div.post-container div.input-content label, div.post-container div.input-title label {
+  vertical-align: top;
+  width: 200px;
+  display: inline-block;
+}
+
+div.post-container div.input-content input, div.post-container div.input-title input {
+  width: 400px;
+  height: 50px;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+div.post-container div.input-content textarea, div.post-container div.input-title textarea {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+div.post-container button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 2em;
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0);
+  color: #ffad8f;
+  border-radius: 5px;
+}
+
+div.post-container button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #ffc8b4;
+}
+/*# sourceMappingURL=style.css.map */

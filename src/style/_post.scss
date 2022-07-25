@@ -1,0 +1,61 @@
+div.post-container {
+  color:white;
+
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+
+  div, button {
+    margin: 20px 0px;
+    padding: 0px 20px;
+  }
+
+  div.title {
+    margin: 20px 0;
+    font-size: 2rem;
+    color:rgb(255, 173, 143);
+  }
+
+  div.input-title, div.input-content {
+    font-size: 1.5em;
+    font-weight: 200;
+  }
+  div.input-content, div.input-title {
+    
+    label {
+      vertical-align:top;
+      width:200px;
+      display: inline-block;
+    }
+
+    input {
+      width:400px;
+      height: 50px;
+      display: inline-block;
+      padding: 0 20px;
+      font-size: 1.2em;
+      border-radius: 5px;
+    }
+    textarea {
+      font-size: 1.2em;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    
+  }
+  button {
+    align-self: flex-start;
+    font-size: 2em;
+    margin: 0 10px;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(255, 173, 143);
+    border-radius: 5px;
+    &:hover {
+      cursor: pointer;
+      background-color: black;
+    color: rgb(255, 200, 180);
+    }
+  }
+
+
+}

@@ -1,0 +1,31 @@
+body {
+  background: rgb(53, 39, 39);
+}
+
+div.login-container {
+  height: 100%;
+  color: rgb(255, 255, 255) ;
+  background: rgb(53, 39, 39);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin: 2.5em 0;
+    font-size: 1.2em;
+    font-weight: 200;
+  }
+  button {
+    font-size: 3.5em;
+    padding: 0.5em 1em;
+    background: #000;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    &:hover {
+      color:rgb(0, 0, 0);
+      background: white;
+    }
+  }
+
+}

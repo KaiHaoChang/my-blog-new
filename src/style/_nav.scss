@@ -1,0 +1,27 @@
+nav.nav-container {
+  height: 150px;
+  width: 100%;
+  background: rgb(37, 33, 33);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size:1.2rem;
+
+  button {
+    font-size:1.1rem;
+    font-weight: bold;
+    &:hover {
+      color: rgb(131, 64, 64);
+    }
+  }
+  
+  h1 {
+    margin: 0 20px;
+    padding: 10px 0;
+  }
+
+  a {
+    color : white;
+  }
+}
