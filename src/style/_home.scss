@@ -1,0 +1,56 @@
+div.cards-container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding-top: 50px;
+  
+  div.card-container {
+    width:750px;
+    height:500px;
+    margin: 20px 0;
+    color:rgb(200, 93, 93);
+    background-color: rgba(241, 241, 241, 0.865);
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: scroll;
+
+    button {
+      font-size: 1.5em;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color : rgb(108, 24, 24) ;
+      &:hover {
+        cursor: pointer;
+        color: rgb(250, 142, 103);
+      }
+    }
+
+    h1 {
+      padding: 10px ;
+      width: 100%;
+      color: rgb(47, 118, 0);
+      box-shadow: 0px 0.5px 0.8px 0.1px rgba(0,0,0,0.7);
+    }
+    h2 {
+      padding: 10px;
+      color:rgb(63, 138, 55);
+
+    }
+
+    p.author {
+      margin-top: 20px;
+      align-self: flex-end;
+      color: rgb(47, 118, 0);
+    }
+  }
+}

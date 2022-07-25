@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+body {
+    background: rgb(80, 59, 59);
+  }
 
 a {
   text-decoration: none;
@@ -17,6 +20,7 @@ button {
   color: white;
 }
 
+@import '_home.scss';
 @import '_nav.scss';
 @import '_login.scss';
 @import '_post.scss';
